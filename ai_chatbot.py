@@ -120,3 +120,7 @@ if question:
 # 2. GitHub에 프로젝트 업로드
 # 3. new app을 통해 앱을 만들어서 GitHub 저장소와 연결
 # 4. 자동 배포됨
+
+# 외부모듈로 인해 에러날 수 있음
+# [from google import genai]
+# streamlit cloud에서 자동으로 설치하도록. requirements.txt문서에 
